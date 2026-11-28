@@ -1,0 +1,41 @@
+.button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+/* Main green button */
+.primary {
+  background-color: #1B5E3F;
+  color: #FFFFFF;
+}
+
+.primary:hover {
+  background-color: #154A32;
+}
+
+/* Lime button */
+.accent {
+  background-color: #C5E86C;
+  color: #1B5E3F;
+}
+
+.accent:hover {
+  background-color: #B5D957;
+}
+
+/* Disabled button */
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Keyboard focus */
+.button:focus-visible {
+  outline: 3px solid #9AD1F5;
+  outline-offset: 3px;
+}

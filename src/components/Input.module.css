@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.container label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1B5E3F;
+}
+
+.input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #D9E2D8;
+  border-radius: 10px;
+  background-color: #FBFAF0;
+  color: #1B5E3F;
+  font-size: 15px;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.input::placeholder {
+  color: #8A968B;
+}
+
+.input:focus {
+  border-color: #1B5E3F;
+}
+
+.input:disabled {
+  background-color: #EEEEEE;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
